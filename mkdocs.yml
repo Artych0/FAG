@@ -1,0 +1,73 @@
+site_name: Wiki FAG - Shinobi.fr
+site_url: https://orgadegensou.github.io/FAG/
+repo_url: https://github.com/orgadegensou/FAG
+
+theme:
+  name: material
+  language: fr
+  palette:
+    # Theme clair
+    - scheme: default 
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    # Theme sombre	
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+features:
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+plugins:
+  - git-revision-date-localized:
+      type: datetime
+      locale: fr
+      fallback_to_build_date: true
+extra_css:
+  - stylesheets/extra.css   
+
+nav:
+  - Accueil: index.md
+  - Jutsus:
+      - JS de Gensou: jutsus/gensou.md
+      - Spécificité du Genjutsu: jutsus/genjutsu.md
+      - Coffre: 
+         - Intro: jutsus/coffre/presentation_coffre.md
+         - Attaque:
+             - Chidori: jutsus/coffre/chidori.md
+             - Contre hypnotique: jutsus/coffre/contre_hypnotique.md
+             - Coup de grâce: jutsus/coffre/coup_de_grace.md
+             - Dernier souffle: jutsus/coffre/dernier_souffle.md
+             - Etreinte glaciale: jutsus/coffre/etreinte_glaciale.md
+             - Frappe fulgurante : jutsus/coffre/frappe_fulgurante.md
+             - Kage Mane: jutsus/coffre/kage_mane.md
+             - Lotus Recto: jutsus/coffre/lotus_recto.md
+             - Marque detonante: jutsus/coffre/marque_detonante.md
+             - Mirroir de l'âme: jutsus/coffre/mirroir_de_lame.md
+             - Rasengan: jutsus/coffre/rasengan.md
+             - Siphon vital: jutsus/coffre/siphon_vital.md
+             - Tourment alteratif: jutsus/coffre/tourment_alteratif.md
+             - Tsukuyomi: jutsus/coffre/tsukuyomi.md
+         - Defensif:
+             - Tourbillon divin: jutsus/coffre/tourbillon_divin.md
+         - Esquive:
+             - Hirashin: jutsus/coffre/hirashin.md
+         - Spéciaux:   
+             - Concentration: jutsus/coffre/concentration.md  
+             - Izanagi: jutsus/coffre/izanagi.md
+             - Kage bunshin: jutsus/coffre/kage_bunshin.md
+             - Portes Celetes: jutsus/coffre/portes_celestes.md
+             - Posture du hakke: jutsus/coffre/posture_du_hakke.md
+             - Sharingan: jutsus/coffre/sharingan.md
+             - Sharingan prédictif: jutsus/coffre/Sharingan_predictif.md

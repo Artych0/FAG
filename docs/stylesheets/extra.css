@@ -1,0 +1,135 @@
+/* Bloc Description (niv 1) */
+.js-desc-box {
+  background: rgba(2, 132, 199, 0.06);
+  border-left: 4px solid #0284c7;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 18px;
+  margin: 14px 0 24px 0;
+}
+
+.js-desc-effet {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.js-stat-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill-atk {
+  background: rgba(22, 163, 74, 0.14);
+  color: #15803d;
+  border: 1px solid rgba(22, 163, 74, 0.35);
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+.pill-agi-malus {
+  background: rgba(220, 38, 38, 0.14);
+  color: #b91c1c;
+  border: 1px solid rgba(220, 38, 38, 0.35);
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+.pill-agi {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #c084fc;
+  background-color: rgba(168, 85, 247, 0.16);
+  border: 1px solid rgba(192, 132, 252, 0.45);
+}
+
+.pill-def {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #60a5fa;
+  background-color: rgba(59, 130, 246, 0.16);
+  border: 1px solid rgba(96, 165, 250, 0.45);
+}
+
+/* Tableau Evolution par niveau */
+.js-evo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.js-evo-table thead {
+  background: #1e293b;
+  color: #f8fafc;
+  border-bottom: 2px solid #ffb703;
+}
+
+.js-evo-table th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.js-evo-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  font-size: 0.92em;
+}
+
+.js-evo-table tbody tr:nth-child(even) {
+  background: rgba(148, 163, 184, 0.06);
+}
+
+.js-evo-table tbody tr:hover {
+  background: rgba(255, 183, 3, 0.12);
+}
+
+.js-para-tag {
+  font-weight: 700;
+  color: #111827
+}
+/* Mode sombre : texte blanc lisible sur fond sombre */
+[data-md-color-scheme="slate"] .js-para-tag {
+  color: #f8fafc;
+}
+
+
+.js-mana-reduc {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #0369a1;
+  background-color: rgba(2, 132, 199, 0.14);
+  border: 1px solid rgba(3, 105, 161, 0.45);
+}
+
+/* Mode sombre : texte bleu clair lisible sur fond sombre */
+[data-md-color-scheme="slate"] .js-mana-reduc {
+  color: #7dd3fc;
+  background-color: rgba(14, 165, 233, 0.18);
+  border-color: rgba(56, 189, 248, 0.45);
+}
+
+
+/* Bloc Notes */
+.js-notes-box {
+  background: rgba(255, 183, 3, 0.08);
+  border: 1px solid rgba(255, 183, 3, 0.35);
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-top: 12px;
+}
